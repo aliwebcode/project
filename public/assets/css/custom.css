@@ -1,0 +1,70 @@
+body {
+    overflow: hidden;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+#mainMenu nav>ul>li>a {
+    font-family: "Tajawal", sans-serif !important;
+}
+
+#mainMenu nav>ul>li>a {
+    font-size: 14px;
+}
+
+/* #header {
+    height: 100px;
+    line-height: 100px;
+} */
+.sticky-active #mainMenu {
+    line-height: 100px;
+}
+
+#header .header-inner,
+#header #header-wrap {
+    height: 100px;
+}
+
+#logo img {
+    width: 140px;
+    height: 100%;
+}
+
+.col-no-margin .our-values div {
+    margin-top: 35px !important;
+}
+
+.icon-box p {
+    font-size: 14px;
+}
+.list.social-media li {
+    display: inline-block;
+    margin: 0 10px;
+}
+.custom-social-link {
+    display: inline-block;
+    font-size: 26px;
+    margin: 0 10px
+}
+form {
+    padding: 25px 0;
+    text-align: right;
+}
+#values h1, #values h3 {
+    color: #ff4e7c !important;
+}
+
+@media(max-width: 576px) {
+    .inspiro-slider .slide {
+        background-position: 5% 20% !important;
+    }
+    #header .header-inner {
+        height: auto;
+    }
+}
